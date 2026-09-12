@@ -1,3 +1,20 @@
+# ============================================================================
+# Exploratory factor analysis of Mariana Trench morphometric factors (R, psych)
+#
+# This script produced figures in the peer-reviewed article:
+#   Lemenkova, P. (2018). Factor Analysis by R Programming to Assess Variability
+#   Among Environmental Determinants of the Mariana Trench.
+#   Turkish Journal of Maritime and Marine Sciences, 4(2), 146-155.
+#   arXiv:     https://arxiv.org/abs/1812.00989 (physics.geo-ph)
+#   arXiv DOI: https://doi.org/10.48550/arXiv.1812.00989
+#   EarthArXiv: https://eartharxiv.org/es9ka/
+#   HAL:       https://hal.archives-ouvertes.fr/hal-01948977
+#   Zenodo:    https://zenodo.org/record/2094101
+#   SSRN:      https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3296819
+#
+# Author: Polina Lemenkova  |  ORCID: 0000-0002-5759-1089
+# ============================================================================
+
 # libraries: 'psych' (MAIN), 'factoextra', 'FactoMiner' ‘zip’, ‘openxlsx’, ‘carData’, ‘pbkrtest’, ‘rio’, ‘car’, ‘flashClust’, ‘leaps’, ‘scatterplot3d’, ‘FactoMineR’, ‘ca’, ‘igraph’
 # ЧАСТЬ 1 создаем датафрейм
 # шаг-1. вчитываем таблицу. делаем из нее датафрейм.
